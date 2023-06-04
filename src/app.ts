@@ -1,7 +1,7 @@
 import * as express from 'express';
 
 class App {
-    public app: express.Application;
+    public app: any;
 
     private port: number;
 
