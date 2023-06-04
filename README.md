@@ -11,6 +11,8 @@ It includes:
 - Lint-staged
 - Commitlint
 - Husky
+- Jest
+- Pactum
 
 Installation
 
