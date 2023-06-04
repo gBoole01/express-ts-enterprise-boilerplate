@@ -1,5 +1,7 @@
 import App from './app';
 
-const app = new App(5000);
+const port = Number(process.env.PORT) || 5000;
+
+const app = new App(port);
 
 app.listen();
